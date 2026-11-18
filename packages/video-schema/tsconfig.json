@@ -1,0 +1,12 @@
+{
+  "extends": "@ai-video-studio/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "target": "ES2022",
+    "module": "CommonJS"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

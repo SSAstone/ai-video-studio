@@ -1,0 +1,25 @@
+{
+  "name": "@ai-video-studio/timeline-engine",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@ai-video-studio/video-schema": "workspace:*",
+    "@ai-video-studio/shared-types": "workspace:*"
+  },
+  "devDependencies": {
+    "@ai-video-studio/typescript-config": "workspace:*",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}
+

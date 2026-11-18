@@ -1,0 +1,17 @@
+node_modules
+.pnpm-store
+dist
+.next
+out
+.turbo
+*.log
+.DS_Store
+storage/uploads/*
+storage/thumbnails/*
+storage/renders/*
+storage/temp/*
+!storage/**/.gitkeep
+.env
+.env.local
+coverage
+

@@ -1,0 +1,29 @@
+{
+  "name": "@ai-video-studio/media-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-video-studio/shared-types": "workspace:*",
+    "@ai-video-studio/video-schema": "workspace:*",
+    "bullmq": "^5.41.6",
+    "dotenv": "^16.4.7",
+    "fluent-ffmpeg": "^2.1.3",
+    "ioredis": "^5.5.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@ai-video-studio/typescript-config": "workspace:*",
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "@types/node": "^22.13.4",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
+

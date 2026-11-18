@@ -1,0 +1,22 @@
+{
+  "name": "ai-video-studio-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.15.1",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "db:generate": "pnpm --filter @ai-video-studio/api db:generate",
+    "db:migrate": "pnpm --filter @ai-video-studio/api db:migrate",
+    "db:seed": "pnpm --filter @ai-video-studio/api db:seed"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4",
+    "typescript": "^5.7.3"
+  }
+}
+

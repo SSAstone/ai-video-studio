@@ -1,0 +1,20 @@
+{
+  "name": "@ai-video-studio/video-schema",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@ai-video-studio/typescript-config": "workspace:*",
+    "typescript": "^5.7.3"
+  }
+}
